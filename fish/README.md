@@ -22,10 +22,10 @@ docker run -itd -p 666:80 fish:v1 /bin/bash
 > lamp:v1为一个安装了apache2、mysql、php的镜像
 
 * start.sh
-> 禁用apache2列目录
-> 创建/var/www/html/uploads目录，并给予其他用户写入权限
-> mysql新版本都是默认开启secure_file_priv，修改其值为/var/www/html/uploads
-> 修改mysql密码，并导入fish.sql，然后删除fish.sql文件
+>+ 禁用apache2列目录
+>+ 创建/var/www/html/uploads目录，并给予其他用户写入权限
+>+ mysql新版本都是默认开启secure_file_priv，修改其值为/var/www/html/uploads
+>+ 修改mysql密码，并导入fish.sql，然后删除fish.sql文件
 
 * pcat_cat.tar.gz
 > 源码的打包
